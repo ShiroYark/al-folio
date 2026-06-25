@@ -66,3 +66,54 @@ bundle exec al-folio upgrade overrides diff <path>    # then `overrides accept <
 ## CI gates and the style contract
 
 `npm run lint:style-contract` (`test/style_contract.js`) is the automated enforcement of the thin-starter boundary, and it will fail CI if you cross it: the starter must **not** define `build:css`/`build:tailwind` npm scripts, must **not** own `_includes`/`_layouts`/`_sass`/`_scripts`/`assets/tailwind`/`tailwind.config.js`/icon-font artifacts, must keep `theme: al_folio_core` and the required plugins in `_config.yml`, and must keep the `third_party_libraries` SRI pins and `al_math` Gemfile pin. Other gates: `unit-tests.yml` (style contract + the five integration scripts), `visual-regression.yml` (Playwright chromium+webkit, diffs candidate against a v0.16.3 baseline served on :4100 via `BASELINE_URL`), `upgrade-check.yml` (`al-folio upgrade audit`), `prettier.yml`. Prettier uses `@shopify/prettier-plugin-liquid` with `printWidth: 150`; run `npm run lint:prettier` before pushing.
+
+---
+
+## Site Owner Context (Chengtao Xu)
+
+### Owner
+- Name: Chengtao Xu (许成韬)
+- Current position: Postdoctoral Fellow, Department of Molecular Biophysics and Biochemistry, Yale University (Jun 2024–present)
+- Previous position: Postdoctoral Fellow, Department of Molecular Biology and Genetics, Cornell University (Mar 2023–Jun 2024)
+- PI: Ailong Ke (https://medicine.yale.edu/lab/ke/)
+- Fellowship: Tom and Joan Steitz RNA Fellowship
+- Email: chengtao.xu@yale.edu
+- Google Scholar: https://scholar.google.com/citations?user=6VnVUPcAAAAJ&hl=en
+
+### Research
+Core focus: Engineering CRISPR-Cas systems for programmable nucleic acid targeting and therapeutic applications.
+
+Three main directions:
+1. IscB/Cas9 engineering — structure-inspired domain truncation converts Cas9 homologs into ssDNA- and RNA-targeting nucleases (R-Cas9); published in Cell 2025
+2. Neurodegenerative disease therapy — R-Cas9 targeting aberrant ssDNA slip-out structures formed by expanded CAG/CTG trinucleotide repeats in Huntington's disease and related disorders
+3. Genome-wide ssDNA mapping — developing R-Cas9 fused to base editors as locus-specific functional probes for ssDNA exposure; complementary to KAS-seq
+
+Techniques: cryo-EM, cell biology, high-throughput sequencing, CRISPR screening, AAV delivery
+
+### Key publications
+1. Chengtao Xu, Xiaolin Niu, Haifeng Sun, Hao Yan, Weixin Tang, Ailong Ke. Conversion of IscB and Cas9 into RNA-guided RNA editors. Cell, 2025, 188, 21, 5847–5861.
+2. Chengtao Xu, Biao Ma, Zhongli Gao, Xing Dong, Chao Zhao, Hong Liu. Electrochemical DNA synthesis and sequencing on a single electrode with scalability for integrated data storage. Science Advances, 2021, 7, eabk0100.
+3. Chengtao Xu, Chao Zhao, Biao Ma, Hong Liu. Uncertainties in synthetic DNA-based data storage. Nucleic Acids Research, 2021, 49, 10, 5451–5469. (Review)
+4. Chengtao Xu, Biao Ma, Xing Dong, Lanjie Lei, Qing Hao, Chao Zhao, Hong Liu. Assembly of Reusable DNA Blocks for Data Storage Using the Principle of Movable Type Printing. ACS Applied Materials & Interfaces, 2023, 15, 20, 24097–24108.
+
+### Key files to edit
+- `_pages/about.md` — homepage biography and selected publications
+- `_bibliography/papers.bib` — full publication list (auto-rendered by Jekyll)
+- `assets/img/prof_pic.jpg` — profile photo
+- `_config.yml` — site-wide settings (name, url, social links, etc.)
+- `_data/cv.yml` — CV page content
+- `_pages/cv.md` — CV page layout
+
+### Writing style preferences
+- Clear and direct academic English
+- Avoid jargon where possible
+- First person for bio ("I am...", "My research...")
+- Preserve personal narrative and anecdotes; do not over-polish
+- Focus on grammar and register, not content generation
+
+### Current tasks
+- [ ] Replace default bio in _pages/about.md
+- [ ] Add all publications to _bibliography/papers.bib
+- [ ] Replace profile photo (assets/img/prof_pic.jpg)
+- [ ] Update _config.yml social links (Google Scholar, Twitter/X, LinkedIn)
+- [ ] Fill in _data/cv.yml
