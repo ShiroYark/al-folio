@@ -145,39 +145,8 @@ cv:
         publisher: Joint Forum on Bioelectronics and Biophotonics, Hainan, China (Oral)
         releaseDate: 2021-12
 
-    Volunteer:
-      - company: Ailong Ke Group, Yale University / Cornell University
-        position: Mentor
-        location: New Haven, CT / Ithaca, NY
-        start_date: 2023-03
-        highlights:
-          - Mentored rotation graduate students in CRISPR biology and protein engineering
-          - Mentored visiting undergraduate students at Cornell during summer research programs
-
-      - company: Yale University
-        position: Scientific Community Engagement
-        location: New Haven, CT
-        start_date: 2024-06
-        highlights:
-          - Presented research in the Yale MB&B Research-in-Progress seminar series and RNA Club
-          - Organized departmental Friday scientific communication sessions to facilitate cross-group discussion
-          - Participated in Yale RNA Center annual retreat
-
-      - company: Hong Liu Group, Southeast University
-        position: Mentor
-        location: Nanjing, China
-        start_date: 2018-09
-        end_date: 2023-03
-        highlights:
-          - Mentored undergraduate students through thesis projects, from experimental design to final writing
-          - Introduced two incoming PhD students to independent research
-
-      - company: Hong Liu Group, Southeast University
-        position: Laboratory Assistant
-        location: Nanjing, China
-        start_date: 2020-12
-        end_date: 2023-03
-        highlights:
-          - Managed laboratory organization, ordering, safety management, and equipment scheduling
-          - Trained new graduate students in electrochemical measurements, gel electrophoresis, and microfluidic device fabrication
-          - Guided students on new research topics
+    Community Service:
+      - bullet: "**Mentoring**, Ailong Ke Group, Yale University / Cornell University *(Mar. 2023–Present)*: Mentored rotation graduate students in CRISPR biology and protein engineering; mentored visiting undergraduate students at Cornell during summer research programs."
+      - bullet: "**Scientific Community Engagement**, Yale University *(Jun. 2024–Present)*: Presented research in the Yale MB&B Research-in-Progress seminar series and RNA Club; organized departmental Friday scientific communication sessions; participated in Yale RNA Center annual retreat."
+      - bullet: "**Mentoring**, Hong Liu Group, Southeast University *(Sep. 2018–Mar. 2023)*: Mentored undergraduate students through thesis projects from experimental design to final writing; introduced two incoming PhD students to independent research."
+      - bullet: "**Laboratory Assistant**, Hong Liu Group, Southeast University *(Dec. 2020–Mar. 2023)*: Managed laboratory organization, ordering, safety management, and equipment scheduling; trained new graduate students in experimental techniques."
